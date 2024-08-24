@@ -9,7 +9,7 @@ def input_2d_array():
     try:
         for i in range(rows):
             row = list(map(int, input(f"Row {i + 1}: ").split()))
-            if len(row) != cols:
+            while len(row) != cols:
                 print(f"The number of elements in the string must be {cols}. Try again.")
                 return input_2d_array()
             array.append(row)
