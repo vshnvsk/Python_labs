@@ -43,9 +43,9 @@ except ValueError:
 
 print("Content-type: text/html\n")
 print("<html><body>")
-print(f"<h1>Результати</h1>")
-print(f"<p>Поділ більшого числа на менше: {division_result}</p>")
-print(f"<p>Кут між прямими: {angle:.2f} градусів</p>")
+print(f"<h1>Results</h1>")
+print(f"<p>Dividing a larger number by a smaller one: {division_result}</p>")
+print(f"<p>The angle between the lines: {angle:.2f} degrees</p>")
 print("</body></html>")
 
 # python3 -m http.server --cgi 8000
